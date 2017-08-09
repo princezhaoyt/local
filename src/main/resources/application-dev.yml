@@ -1,0 +1,34 @@
+#eureka配置
+#spring:
+#  application:
+#    name: eureka-server
+#server:
+#  port: 1111
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    serviceUrl:
+#     defaultZone: http://localhost:1112/eureka/
+
+#服务配置
+spring:
+  application:
+    name: compute-service
+server:
+  port: 2222
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: http://localhost:1111/eureka/,http://localhost:1112/eureka/
+
+#ribbon配置
+#server:
+#  port: 3333
+#spring:
+#  application:
+#    name: ribbon-service
+#eureka:
+# client:
+#  serviceUrl:
+#   defaultZone: http://localhost:1111/eureka/

@@ -1,0 +1,14 @@
+com\consumRest\Value.class
+com\consumRest\Quote.class
+com\test\controller\ComputeController.class
+com\test\ComputerServiceApplication2.class
+com\test\Application.class
+com\ribbon\RibbonApplication.class
+com\consumRest\consumRestApplication.class
+com\taskScheduled\ScheduledTasks.class
+com\feign\interf\ComputeClient.class
+com\ribbon\controller\ConsumerController.class
+com\taskScheduled\TaskScheduledApplication.class
+com\feign\controller\FeignComputeController.class
+com\test\ComputerServiceApplication.class
+com\feign\FeignApplication.class
