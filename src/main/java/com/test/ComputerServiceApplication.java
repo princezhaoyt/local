@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+import java.io.File;
+import java.io.IOException;
+
 /**
  * Created by zyt on 2017/6/12.
  */
